@@ -1,0 +1,12 @@
+ChachaPoly.xs
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/Crypt-OpenSSH-ChachaPoly.t
+lib/Crypt/OpenSSH/ChachaPoly.pm
+src/chacha.c
+src/chacha.h
+src/poly1305.c
+src/poly1305.h

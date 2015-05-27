@@ -1,6 +1,5 @@
 Revision history for Perl extension Crypt::OpenSSH::ChachaPoly.
 
 0.01  Mon May 18 08:14:20 2015
-	- original version; created by h2xs 1.23 with options
-		-An Crypt::OpenSSH::ChachaPoly
+	-Crypt::OpenSSH::ChachaPoly first version
 

@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.78.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+SHA1 cb983c126dc247e5a3a45494278a585cf6d53c4c ChachaPoly.xs
+SHA1 7c4c4e56888f299711fdfe06d276d2bfb37bba8e Changes
+SHA1 dba0461e53194326a8f3d98f7c9c1d9a99a37de9 MANIFEST
+SHA1 8a26bcf9c47854853df057cbe94f63c38922b335 Makefile.PL
+SHA1 e071ffe1d74685f034034417d4a88371ae58024c README
+SHA1 0db55dc05df2c1a1a2208b2569f9e96f08805cc7 lib/Crypt/OpenSSH/ChachaPoly.pm
+SHA1 2adb5cbc9065eea047f857161ca99f611a422216 ppport.h
+SHA1 d668dcf5e3945b727a207a3d71d607a5f1b6088c src/chacha.c
+SHA1 4da3376e0c343510ed233aed446aff99fe3cd9e1 src/chacha.h
+SHA1 1a30064d4793dcdecdca5f87b98c89292d4ada60 src/poly1305.c
+SHA1 5289755d515d94fc557c8fa5eb8cada2c03272bf src/poly1305.h
+SHA1 7919128570bcec2df1167db96e85fdc4cfcc5de0 t/Crypt-OpenSSH-ChachaPoly.t
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - http://gpgtools.org
+
+iQEcBAEBCAAGBQJVZi+aAAoJEC3vSbXAsR2+vhIH/0ZXNUnXgwWlHi6a9sDXjW+Q
+YNHOF37cORfFMhl3xRZntty9+IhkL1X1ehp7S7czyf6Hzuw7uE3N3iaHFB/QIqea
+iWyT1Bipfu3XsGj/jdLmEvgnSinNNWxMnl1Fkfe5sPSvwA0bVa8RzZRAn32nNk/w
+mvq5pftDUM9bOlSq73B97EmjO5YNsmayerhQsV0eJuEoHrjHDaVc4m6TDp3/tTvB
+l41/GtutvLsY3mDDejaJ30nY3H4h/iP1uL0DCwP0vV02Wr/khwPi6qnZ+l6A9AEO
+HYnY1p+cQOCFdc4/omSElhkU8S2XX9w+H1zcYjLXY8graBcYE/8yMJ0N/QDi8YI=
+=rBq/
+-----END PGP SIGNATURE-----

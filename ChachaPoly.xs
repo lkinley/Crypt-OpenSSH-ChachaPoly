@@ -20,10 +20,6 @@ new(class,key)
 CODE:
 	{
 		STRLEN keysize;
-
-		if (!SvPOK (key))
-			croak("Key must be a scalar");
-
 		keysize = SvCUR(key);
 
 		if (keysize != 16 && keysize != 32)
@@ -45,8 +41,6 @@ CODE:
 	{
 		STRLEN size;
 		void *bytes = SvPV(data,size);
-		if (!SvPOK (data))
-			croak("Data to encrypt must be a scalar");
 
 		if (size) {
 			RETVAL = NEWSV (0, size);
@@ -69,7 +63,7 @@ ivsetup(self,iv,counter)
 CODE:
 	{
 		STRLEN iv_l ; unsigned char *iv_p = (unsigned char *) SvPVbyte (iv, iv_l);
-		/* anything beyond 8 chars is ignored */
+		/* anything beyond 64 bits is ignored */
 		if (iv_l < 8) {
 			croak("ivsetup: iv must be 64 bits long!");
 		}

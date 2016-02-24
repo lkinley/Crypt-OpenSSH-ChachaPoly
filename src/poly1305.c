@@ -11,13 +11,13 @@
 
 #define mul32x32_64(a,b) ((uint64_t)(a) * (b))
 
-/* Perl already defines this
+#ifndef U8TO32_LE
 #define U8TO32_LE(p) \
 	(((uint32_t)((p)[0])) | \
 	 ((uint32_t)((p)[1]) <<  8) | \
 	 ((uint32_t)((p)[2]) << 16) | \
 	 ((uint32_t)((p)[3]) << 24))
-*/
+#endif
 
 #define U32TO8_LE(p, v) \
 	do { \

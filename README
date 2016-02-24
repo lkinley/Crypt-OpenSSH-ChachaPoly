@@ -1,4 +1,4 @@
-Crypt-OpenSSH-ChachaPoly version 0.01
+Crypt-OpenSSH-ChachaPoly version 0.02
 =====================================
 
 This module serves as a wrapper to the OpenSSH Chacha20 and Poly1305 functions.
@@ -24,7 +24,7 @@ COPYRIGHT AND LICENCE
 
 Put the correct copyright and licence information here.
 
-Copyright (C) 2015 by Lance Kinley/Loyalty Methods, Inc.
+Copyright (C) 2015-16 by Lance Kinley/Loyalty Methods, Inc.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.18.2 or,

@@ -10,3 +10,4 @@ src/chacha.c
 src/chacha.h
 src/poly1305.c
 src/poly1305.h
+typemap

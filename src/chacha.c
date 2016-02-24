@@ -21,10 +21,10 @@ typedef struct chacha_ctx chacha_ctx;
 #define U8V(v) ((u8)(v) & U8C(0xFF))
 #define U32V(v) ((u32)(v) & U32C(0xFFFFFFFF))
 
-/* Perl already defines this
+#ifndef ROTL32
 #define ROTL32(v, n) \
   (U32V((v) << (n)) | ((v) >> (32 - (n))))
-*/
+#endif
 
 #define U8TO32_LITTLE(p) \
   (((u32)((p)[0])      ) | \
